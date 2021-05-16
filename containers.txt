@@ -1,0 +1,17 @@
+accounts.google.com , Google
+docs.google.com , Google
+editor.construct.net , Work
+facebook.com , Facebook
+google.com , Google
+id.trello.com , Work
+localhost , localhost
+lti-submission-google.app.schoology.com , Work
+slpschools-org.zoom.us , zoom
+slpschools.powerschool.com , Work
+slpschools.schoology.com , Work
+studio.youtube.com , Google
+trello.com , Work
+www.deltamath.com , Work
+www.desmos.com , Work
+youtube.com , Google
+zoom.us , zoom

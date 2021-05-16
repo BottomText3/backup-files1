@@ -1,0 +1,3 @@
+GRUB_CMDLINE_LINUX_DEFAULT splash=verbose nomodeset apparmor=1 security=apparmor amd_iommu=on
+
+GRUB_CMDLINE_LINUX="cryptdevice=/dev/disk/by-uuid/(sda-id):lockpart root=UUID=(mapper-id)"
