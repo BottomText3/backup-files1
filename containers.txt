@@ -1,4 +1,5 @@
 accounts.google.com , Google
+accounts.youtube.com , Google
 docs.google.com , Google
 editor.construct.net , Work
 facebook.com , Facebook
