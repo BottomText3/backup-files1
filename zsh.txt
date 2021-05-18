@@ -1,3 +1,5 @@
+thefuck, sudo, chucknorris, archlinux, autojump, copydir
+
 alias sync="doas pacman -Sy"
 alias delete="doas pacman -Rns"
 alias remove="doas pacman -Rns"
