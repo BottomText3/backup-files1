@@ -11,6 +11,7 @@ id.altassian.com , Work
 id.atlassian.com , Work
 id.trello.com , Work
 localhost , localhost
+mail.google.com , Google
 studio.youtube.com , Google
 support.google.com , Google
 translate.google.com , Google
