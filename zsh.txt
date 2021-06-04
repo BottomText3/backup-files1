@@ -1,10 +1,45 @@
 thefuck, sudo, chucknorris, archlinux, autojump, copydir
 
+#sync packages
 alias sync="doas pacman -Sy"
+#delete packages
 alias delete="doas pacman -Rns"
+#delete packages
 alias remove="doas pacman -Rns"
+#delete package and all related packages
 alias delall="doas pacman -Rcnsu"
+#downgrade a package
 alias downgr="doas downgrade"
+#refresh mirrorlist by rating download speed and most recent mirror update
 alias updatemirrors="cp /etc/pacman.d/mirrorlist ~/backup/mirrorlistOLD && doas rm /etc/pacman.d/mirrorlist && doas touch /etc/pacman.d/mirrorlist && doas reflector --verbose --latest 80 --age 12 --protocol https --sort rate --save /etc/pacman.d/mirrorlist"
+#find qualities of youtube video
 alias findquality="youtube-dl -F"
+#download a youtube video
 alias downloadvideo="youtube-dl -f"
+#list files
+alias ls="ls -a --color=auto"
+#grep but color
+alias grep="grep --color=auto"
+#search for a term in command history
+alias gh="history | grep"
+#list files by modification date
+alias lsmod="ls -t -1"
+#move file to trash
+alias trash="sudo mv --force -t ~/.local/share/Trash"
+#make parent directories addative
+alias mkdir="mkdir -pv"
+#make mount command output human readable
+alias mount="mount | column -t"
+#vim shortcuts
+alias vi="vim"
+alias svi="sudo vim"
+#stops ping after 5 packets
+alias ping="ping -c 5"
+#list all open ports
+alias oports="netstat -tulanp"
+#read zshrc
+alias catrc="cat ~/.zshrc"
+#parts for cloning my firefox security profile
+alias fico="git clone https://github.com/bottomtext3/firefox-config"
+alias fiex1="mkdir extensions"
+alias fiex2="git clone https://github.com/bottomtext3/firefox-extensions"
